@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
     "core-js": "^2.5.4",
+    "express": "^4.16.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
@@ -46,10 +47,8 @@
     "tslint": "~5.11.0",
     "typescript": "~3.1.6"
   },
-  {
-    "numeroUm": 2.0,
-    "operacao": "SOMA",
-    "numeroDois": 7.0
-  
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
   }
 }
