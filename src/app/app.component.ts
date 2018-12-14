@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   numeroUm: number = 2;
   numeroDois: number = 10;
-  Operacao: String = 'SOMA';
+  operacao: String = 'SOMA';
 
   response: any;
 
@@ -19,7 +19,7 @@ export class AppComponent {
 
   onClickExecutarOperacao(){
     const calculo = {
-      operacao: this.Operacao,
+      operacao: this.operacao,
       numeroUm: this.numeroUm,
       numeroDois: this.numeroDois
     };
